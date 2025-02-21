@@ -27,4 +27,9 @@ xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/
 			<include-coda>/chap07/common/footer.jspf</include-coda>
 		</jsp-property-group>
 	</jsp-config>
+	
+	<context-param>
+		<param-name>javax.servlet.jsp.jstl.fmt.timeZone</param-name>
+		<param-value>Hongkong</param-value>
+	</context-param>
 </web-app>
